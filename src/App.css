@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.containerSuniui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.shuniai{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: darkgreen;
+  color: lemonchiffon;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 17px;
+}
+.shuniaiApvalus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+  color: lemonchiffon;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 50%;
+}
+
