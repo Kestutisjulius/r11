@@ -68,4 +68,9 @@
   padding: 7px;
   border-radius: 50%;
 }
+.vandenynas{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
 

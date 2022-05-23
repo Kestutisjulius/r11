@@ -12,10 +12,8 @@ function Bala(){
         {id: 10, type: 'man', name: 'Teta Toma', color: 'yellow'},
     ];
 
-
     return(
-
-        seaPlaners.map((bala,key) => <li key={key.toString()} className="bala" >{bala.name}</li>)
+        seaPlaners.map((bala,key) => <li key={key} className="bala" >{bala.name}</li>)
 
     )
 }
